@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+    line-height: 1.5;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+}
