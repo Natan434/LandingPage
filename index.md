@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Natan434/LandingPage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Natan434/LandingPage/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Restaurant-landingPage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="h1-main">Welcome</div>
+      </div>
+    </header>
+    <main>
+      <section class="Menu">
+        <div class="container">
+          <h2 class="section-title">Menu</h2>
+          <div class="divine">
+            <a href="" class="options">
+              <img src="img/dish_1.jpg" alt="" class="image" />
+            </a>
+            <a href="" class="options">
+              <img src="img/dish_2.jpg" alt="" class="image" />
+            </a>
+            <a href="" class="options">
+              <img src="img/dish_3.jpg" alt="" class="image" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="container">
+          <h2 class="section-title">Our Products</h2>
+          <article class="products">
+            <h3 class="name"></h3>
+            <img src="img/dish_4.jpg" class="img-product" />
+            <a href="" class="description"></a>
+          </article>
+          <article class="products">
+            <img src="img/dish_1.jpg" class="img-product" />
+            <h3 class="name"></h3>
+            <a href="" class="description"></a>
+          </article>
+          <article class="products">
+            <img src="img/dish_2.jpg" class="img-product" />
+            <h3 class="name"></h3>
+            <a href="" class="description"></a>
+          </article>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <article class="about-info">
+            <h2 class="section-title">Contact</h2>
+            <p class="adress">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+              ullam alias saepe delectus sequi placeat? Cupiditate eveniet hic
+              iusto reprehenderit quas consectetur cumque quidem commodi atque,
+              veritatis maxime at officia?
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
