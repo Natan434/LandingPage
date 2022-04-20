@@ -40,9 +40,6 @@ section {
     min-width: 15em;
   }
   
-  .spacing > * + * {
-    margin-top: var(--spacer, 2rem);
-  }
   
   .h1-main {
     font-size: 4rem;
