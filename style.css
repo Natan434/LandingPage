@@ -19,6 +19,7 @@ p{
 }
 
 section {
+    border-top: #333;
     padding: 7em 0;
   }
   
@@ -62,7 +63,12 @@ section {
     background-image: url("img/dish_title.jpg");
   }
   
-  
+  .description{
+    text-align: center;
+    font-size: 4rem;
+    font-size: clamp(2rem, calc(4vw + 1.5rem), 1.5rem);
+  }
+
   .options {
     background: #eee;
   }
