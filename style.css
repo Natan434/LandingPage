@@ -44,7 +44,7 @@ section {
   
   .h1-main {
     font-size: 4rem;
-    font-size: clamp(10rem, calc(10vw + 6rem), 15.5rem);
+    font-size: 10em;
     line-height: 1;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
